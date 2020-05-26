@@ -1,4 +1,4 @@
-  
+
 conky.config = {
 
   --Alignment options
@@ -27,9 +27,9 @@ conky.config = {
 
     own_window = true,
     own_window_type = 'normal',
-    own_window_transparent = true,
+    own_window_transparent = false,
     own_window_argb_visual = true,
-    own_window_argb_value = 0,
+    own_window_argb_value = 80,
     own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
     own_window_class = 'Conky',
 
@@ -71,7 +71,7 @@ ${color1}Kernel: $color$kernel
 ${color1}Uptime:$color $uptime
 $hr
 ${color1}CPU:
-${color1}Intel(R) Core(TM) i7-3770 CPU @ $color$freq_g GHz
+${color1}8 x AMD Ryzen 5 3500 U @ $color$freq_g GHz
 ${color1}Avg load:$color $cpu% ${goto 150}${color1}Temp $color${hwmon 2 temp 1} °C
 ${color1}${cpugraph cpu0, 50, 320}
 $hr
