@@ -72,7 +72,7 @@ ${color1}Uptime:$color $uptime
 $hr
 ${color1}CPU:
 ${color1}8 x AMD Ryzen 5 3500 U @ $color$freq_g GHz
-${color1}Avg load:$color $cpu% ${goto 150}${color1}Temp $color${hwmon 2 temp 1} °C
+${color1}Avg load:$color $cpu% ${goto 150}${color1}Temp $color${hwmon 3 temp 1} °C
 ${color1}${cpugraph cpu0, 50, 320}
 $hr
 ${color1}RAM:
